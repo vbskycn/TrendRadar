@@ -19,7 +19,7 @@ CONFIG = {
     "FEISHU_MESSAGE_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # feishu消息分割线
     "REQUEST_INTERVAL": 1000,  # 请求间隔(毫秒)
     "REPORT_TYPE": "daily",  # 报告类型: "current"|"daily"|"both"
-    "RANK_THRESHOLD": 5,  # 排名高亮阈值
+    "RANK_THRESHOLD": 10,  # 排名高亮阈值
     "USE_PROXY": True,  # 是否启用代理
     "DEFAULT_PROXY": "http://127.0.0.1:10086",
     "ENABLE_CRAWLER": True,  # 是否启用爬取新闻功能，False时直接停止程序
