@@ -1,0 +1,121 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 193</p><p>生成时间: 2025-07-31 23:34:35</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>ifeng</li><li>tieba</li><li>zhihu</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.07%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31271551" target="_blank" class="news-link">国家网信办就H20算力芯片漏洞后门安全风险约谈英伟达公司</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时34分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752324" target="_blank" class="news-link">国家互联网信息办公室就H20算力芯片漏洞后门安全风险约谈英伟达公司</a> [8] <font color='grey'>- 23时34分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7533192266433695251/" target="_blank" class="news-link">专家：约谈英伟达不仅是表明态度</a> [23] <font color='grey'>- 23时34分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7533212516051062308/" target="_blank" class="news-link">英伟达被约谈对市场来说意味着什么</a> [26] <font color='grey'>- 23时34分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.55%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752227" target="_blank" class="news-link">鲍威尔鹰派讲话扭转鸽派声明，美国股债承压，美元创两月新高，Meta、微软绩后大涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时34分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752345" target="_blank" class="news-link">美国核心PCE通胀回升，美股三大指数全线上涨，微软市值突破4万亿，Meta涨近13%，日元跌破150关口</a> [9] <font color='grey'>- 23时34分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2102798" target="_blank" class="news-link">微软、Meta市值劲增3.8万亿 美国通胀如期升温 | 今夜看点</a> [13] <font color='grey'>- 23时34分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.04%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2187939" target="_blank" class="news-link">哪吒2将于8月2日全网上线</a> [7] <font color='grey'>- 23时34分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E3%80%8A%E5%93%AA%E5%90%922%E3%80%8B%E5%B0%86%E4%BA%8E8%E6%9C%882%E6%97%A5%E5%85%A8%E7%BD%91%E4%B8%8A%E7%BA%BF" target="_blank" class="news-link">《哪吒2》将于8月2日全网上线</a> [10] <font color='grey'>- 23时34分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.04%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2102702" target="_blank" class="news-link">国常会：要深入实施“人工智能+”行动，大力推进人工智能规模化商业化应用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时34分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时34分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.52%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A2%ABOpenAI%E7%82%B9%E5%90%8D%E7%9A%84%E5%9B%BD%E4%BA%A7AI%E4%BB%80%E4%B9%88%E6%B0%B4%E5%B9%B3" target="_blank" class="news-link">被OpenAI点名的国产AI什么水平</a> [17] <font color='grey'>- 23时34分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7533212516051062308/" target="_blank" class="news-link">英伟达被约谈对市场来说意味着什么</a> [26]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2102798" target="_blank" class="news-link">微软、Meta市值劲增3.8万亿 美国通胀如期升温 | 今夜看点</a> [13]</li></ul></div>
+        </body>
+        </html>
+        
